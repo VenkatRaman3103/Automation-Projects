@@ -38,20 +38,19 @@ The script performs the following steps:
 
 ## Example
 
-    ```bash
-    python password_checker.py mypassword secretp@ss 123456
-    ```
+```bash
+python password_checker.py mypassword secretp@ss 123456
+```
 
-## Output:
+## Output
+```bash
+5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8 was found 3355754 times.... do change the password
+secretp@ss was not found
+your password is strong
+25F9E794323B453885F5181F1B624D0B was not found
+your password is strong
+```
 
-    ```bash
-        5BAA61E4C9B93F3F0682250B6CF8331B7EE68FD8 was found 3355754 times.... do change the password
-        secretp@ss was not found
-        your password is strong
-        25F9E794323B453885F5181F1B624D0B was not found
-        your password is strong
-    ```
-
-# Dependencies
-
+## Dependencies
 - requests
+
